@@ -1,4 +1,4 @@
+
 a=[1,2,3,4,5]
-result=[0 for i in range(len(a))]
-for num in result:
-    print(num)
+a[1],a[2]=a[2],a[1]
+print(a[1:])
