@@ -129,11 +129,11 @@ def heapSort(arr):
     
 
 list=[]
-for i in range(10):
+for i in range(1000):
     list.append(random.randint(0,100))
 #print(list)
 list=heapSort(list)
-for i in list:
-    print(i)
+# for i in list:
+#     print(i)
 #print(list)
 
